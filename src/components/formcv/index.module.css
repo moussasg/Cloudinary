@@ -21,4 +21,15 @@
       h1,p{
         color: white;
       }
+      .monimg {
+        padding: 1rem;
+        border: 1px solid #e0e0e0;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+        transition: all 0.2s ease-in-out;
+      }
+      .monimg:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+      }
     

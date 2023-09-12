@@ -27,8 +27,10 @@ function Formcv() {
     <>
       <div className={style.App}>
       <h1>Drop Your CV</h1>
-      <p>{vide}</p> 
+      <p>{vide}</p>
+      <div className={style.monimg}>
   <img src={Logo} width='300px' height="200px" alt='rre'></img><br></br>
+  </div>
   <div className={style.butup}>
         <input className={style.upload} ref={inputRef} type="file"/><br></br>
         <button type="submit" onClick={AddAnimal}><IconLabelButtons/></button>
